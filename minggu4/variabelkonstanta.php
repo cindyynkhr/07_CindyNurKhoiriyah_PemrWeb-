@@ -3,10 +3,12 @@ $angka1 = 10;
 $angka2 = 5;
 $hasil = $angka1 + $angka2;
 echo "Hasil Penjualan $angka1 dan $angka2 adalah $hasil";
+echo "<br>";
 
 $benar = true;
 $salah = false;
 echo "Variabel Benar: $benar, Variabel Salah: $salah";
+echo "<br>";
 
 //mendefinisikan konstanta untuk nilai tetap
 define("NAMA_SITUS","Websiteku.com");

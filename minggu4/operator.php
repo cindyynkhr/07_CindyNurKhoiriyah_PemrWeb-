@@ -29,15 +29,56 @@ $hasilLebihKecilSama = $a <= $b;
 $hasilLebihBesarSama = $a >= $b;
 
 echo "<br><br>";
-echo "Hasil Sama {$hasilSama}";
+echo "Hasil $a == $b adalah {$hasilSama}";
 echo "<br>";
-echo "Hasil Tidak Sama {$hasilTidakSama}";
+echo "Hasil $a != $b adalah {$hasilTidakSama}";
 echo "<br>";
-echo "Hasil Lebih Kecil {$hasilLebihKecil}";
+echo "Hasil $a < $b adalah {$hasilLebihKecil}";
 echo "<br>";
-echo "Hasil Lebih Besar {$hasilLebihBesar}";
+echo "Hasil $a > $b adalah {$hasilLebihBesar}";
 echo "<br>";
-echo "Hasil Lebih Kecil Sama {$hasilLebihKecilSama}";
+echo "Hasil $a <= $b adalah {$hasilLebihKecilSama}";
 echo "<br>";
-echo "Hasil Lebih Besar Sama {$hasilLebihBesarSama}";
+echo "Hasil $a >= $b adalah {$hasilLebihBesarSama}";
+
+$hasilAnd = $a && $b;
+$hasilOr = $a || $b;
+$hasilNotA = !$a;
+$hasilNotB = !$b;
+
+echo "<br><br>";
+echo "hasil $a && $b adalah {$hasilAnd}";
+echo "<br>";
+echo "hasil $a || $b adalah {$hasilOr}";
+echo "<br>";
+echo "hasil !$a adalah {$hasilNotA}";
+echo "<br>";
+echo "hasil !$b adalah {$hasilNotB}";
+
+$z = $a += $b;
+$y = $a -= $b;
+$x = $a *= $b;
+$w = $a /= $b;
+$v = $a %= $b;
+
+echo "<br><br>";
+echo "Hasil $a += $b adalah $z";
+echo "<br>";
+echo "Hasil $a -= $b adalah $y";
+echo "<br>";
+echo "Hasil $a *= $b adalah $x";
+echo "<br>";
+echo "Hasil $a /= $b adalah $w";
+echo "<br>";
+echo "Hasil $a %= $b adalah $v";
+echo "<br>";
+
+$hasilIdentik = $a === $b;
+$hasilTidakIdentik = $a !== $b;
+
+echo "<br><br>";
+echo "Hasil $a === $b adalah {$hasilIdentik}";
+echo "<br>";
+echo "Hasil $a !== $b adalah {$hasilTidakIdentik}";
+echo "<br>";
 ?>

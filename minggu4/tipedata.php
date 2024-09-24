@@ -45,6 +45,7 @@ echo "Nama Depan: {$namaDepan} <br>";
 echo 'Nama Belakang: '.$namaBelakang.'<br>';
 
 echo $namaLengkap;
+echo $namaLengkap2;
 
 echo "<br><br>";
 $listMahasiswa = ["Wahid Abdullah","Elmo Bachtiar","Lendis Febri"];
