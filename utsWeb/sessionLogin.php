@@ -25,9 +25,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo implode(" ", $errors) . "<br>";
     } else {
         // Jika validasi berhasil, simpan sesi dan arahkan ke halaman home
-
+        $_SESSION['username'] = $username;
+        $_SESSION['status'] = "login";
         echo "success"; // Mengirimkan respons "success" jika login berhasil
     }
 }
-
 ?>

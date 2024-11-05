@@ -11,7 +11,7 @@
         <h2>Laundry Cindy</h2>
         <nav>
             <ul>
-                <li><a href="home.php">Home</a></li>
+                <li><a href="homeSession.php">Home</a></li>
                 <li><a href="cek_harga.php">Cek Harga</a></li>
                 <li><a href="sessionLogout.php">Logout</a></li>
             </ul>

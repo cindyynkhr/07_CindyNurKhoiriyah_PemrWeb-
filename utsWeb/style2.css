@@ -42,19 +42,41 @@ nav ul li a:hover {
     background-color: #6699cc;
 }
 
+
+#sliderImage1 {
+    width: 100px;
+    object-fit: cover;
+    height: 100 px;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
 /* Banner styling */
-.banner-slider {
+/* .slider {
     width: 100%;
     height: 300px;
     overflow: hidden;
     position: relative;
+} */
+
+/* #sliderImage1 {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
 }
 
-.banner-slider img {
+#sliderImage2 {
     width: 100%;
-    height: auto;
-    position: relative;
-}
+    object-fit: cover;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+} */
 
 /* Content styling */
 .content {
